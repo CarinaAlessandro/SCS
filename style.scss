@@ -24,6 +24,8 @@ body {
   background-size: cover;
   height: 95vh;
   position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 83%, 0% 100%);
+  background-color: #111;
 }
 .header-text-box {
   position: absolute;
